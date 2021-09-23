@@ -29,6 +29,7 @@ function addSec() {
 
 function checkTimer() {
     if (timer == 0) {
+        alert(`You performed ${clicks} clicks in 5 seconds`);
         reset();
     }
 }
