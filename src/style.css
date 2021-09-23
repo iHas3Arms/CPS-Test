@@ -1,3 +1,19 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(15, 15, 105);
+}
+
+#mask {
+    background-color: rgb(26, 26, 26);
+    width: 3000;
+    height: 2000;
+    opacity: 0.3;
+}
+
 #btn {
     background-color: rgb(80, 80, 80);
     border: 3px solid rgb(26, 26, 26);
@@ -6,6 +22,7 @@
     width: 500px;
     height: 250px;
 }
+
 #btn:active {
     background-color: rgb(66, 66, 66);
 }
