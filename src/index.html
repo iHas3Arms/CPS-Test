@@ -8,8 +8,28 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <div id="mask"></div>
-    <button id="btn" onclick="addClick()">Click Me to Start!</button>
+    <h1>Speed Clickers</h1>
+    <br>
+    <div id="button">
+        <p id="timer-t">timer</p>
+        <p id="timer-c">clicks</p>
+        <p id="timer-cps">clicks per second</p>
+        <div id="boxes">
+            <div class="inline" id="box-bg">
+                <p id="timer">5</p>
+            </div>
+            <div class="inline" id="box-bg-a">
+                <p id="clicks">0</p>
+            </div>
+            <div class="inline" id="box-bg-b">
+                <p id="cps">0</p>
+            </div>
+        </div>
+        <br><br><br>
+        <div id="btn-sr">
+            <button id="btn" onclick="addClick()">CLICK TO START PLAYING</button>
+        </div>
+    </div>
 </body>
 <script src="script.js"></script>
 </html>
